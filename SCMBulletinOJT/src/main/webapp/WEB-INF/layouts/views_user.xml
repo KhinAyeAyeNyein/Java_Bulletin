@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+    "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+    "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+    <!-- Login Page -->
+    <definition name="userList" extends="template1">
+        <put-attribute name="title" value="Login" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/user/list/userList.jsp" />
+    </definition>
+    <!-- DetailUser Page -->
+    <definition name="detailUser" extends="template1">
+        <put-attribute name="title" value="detailUser" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/user/detail/detailUser.jsp" />
+    </definition>
+    <!-- createUser -->
+    <definition name="createUser" extends="template1">
+        <put-attribute name="title" value="createUser" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/user/create/createUser.jsp" />
+    </definition>
+    <!-- CreateUserConfirm Page -->
+    <definition name="createUserConfirm" extends="template1">
+        <put-attribute name="title"
+            value="createUserConfirm" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/user/create/createUserConfirm.jsp" />
+    </definition>
+    <definition name="updateUser" extends="template1">
+        <put-attribute name="title" value="UpdateUser" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/user/update/updateUser.jsp" />
+    </definition>
+    <definition name="confirmUpdateUser" extends="template1">
+        <put-attribute name="title"
+            value="ConfirmUpdateUser" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/user/update/confirmUpdateUser.jsp" />
+    </definition>
+    <!-- changePassword Page -->
+    <definition name="changePassword" extends="template1">
+        <put-attribute name="title" value="changePassword" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/user/update/changePassword.jsp" />
+    </definition>
+</tiles-definitions>

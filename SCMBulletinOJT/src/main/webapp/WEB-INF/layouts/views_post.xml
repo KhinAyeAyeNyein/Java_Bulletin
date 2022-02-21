@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+    "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+    "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+    <!-- postList Page -->
+    <definition name="postList" extends="template1">
+        <put-attribute name="title" value="postList" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/post/list/postList.jsp" />
+    </definition>
+    <!-- DetailPost Page -->
+    <definition name="detailPost" extends="template1">
+        <put-attribute name="title" value="detailPost" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/post/detail/detailPost.jsp" />
+    </definition>
+    <!-- createPost -->
+    <definition name="createPost" extends="template1">
+        <put-attribute name="title" value="createPost" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/post/create/createPost.jsp" />
+    </definition>
+    <!-- createPostConfirm Page -->
+    <definition name="createPostConfirm" extends="template1">
+        <put-attribute name="title"
+            value="createPostConfirm" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/post/create/createPostConfirm.jsp" />
+    </definition>
+    <definition name="updatePost" extends="template1">
+        <put-attribute name="title" value="updatePost" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/post/update/updatePost.jsp" />
+    </definition>
+    <!-- UpdatePostConfirm Page -->
+    <definition name="updatePostConfirm" extends="template1">
+        <put-attribute name="title"
+            value="updatePostConfirm" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/post/update/updatePostConfirm.jsp" />
+    </definition>
+    <!-- uploadCSV Page -->
+    <definition name="uploadCSV" extends="template1">
+        <put-attribute name="title" value="uploadCSV" />
+        <put-attribute name="body"
+            value="/WEB-INF/pages/post/csv/uploadCSV.jsp" />
+    </definition>
+</tiles-definitions>
